@@ -22,7 +22,8 @@ The main purpose of Bizcard is to automate the process of extracting key details
    BizCardX is a user-friendly tool for extracting information from business cards. The tool uses OCR technology to recognize text on business cards and extracts the data into a SQL database after classification using regular expressions. Users can access the extracted information using a GUI built using streamlit.
    The BizCardX application is a simple and intuitive user interface that guides users through the process of uploading the business card image and extracting its information. The extracted information would be displayed in a clean and organized manner, and users would be able to easily add it to the database with the click of a button. Further the data stored in database can be easily Read, updated and deleted by user as per the requirement.
    
-### Want to see demo video of my project? - [click here](https://www.linkedin.com/feed/update/urn:li:activity:7051469150581379072/)
+### Want to see demo video of my project? - [click here](https://www.linkedin.com/posts/balavignesh-s-s-6133b727a_ocr-data-india-activity-7090546920921714688-Q3x7?utm_source=share&utm_medium=member_desktop)
+### youtube - [click here](https://youtu.be/76C5B09LexY)
    
 ## Libraries/Modules used for the project!
 
@@ -56,7 +57,6 @@ The main purpose of Bizcard is to automate the process of extracting key details
 - Once user uploads a business card, the text present in the card is extracted by **easyocr** library.
 
 - The extracted text is sent to get_data() function(user defined- I have coded this function) for respective text classification as company name, card holder name, designation, mobile number, email address, website URL, area, city, state, and pin code using loops and some regular expression.
-- 
 
 - The classified data is displayed on screen which can be further edited by user based on requirement.
 
